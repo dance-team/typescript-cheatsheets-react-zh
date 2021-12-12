@@ -1,21 +1,21 @@
 ---
 id: intro
-sidebar_label: Intro
-title: Advanced Cheatsheet
+sidebar_label: 介绍
+title: 高级速查表
 ---
 
-**This Advanced Cheatsheet** helps show and explain advanced usage of generic types for people writing reusable type utilities/functions/render prop/higher order components and TS+React **libraries**.
+**此高级速查表** 有助于展示和解释通用类型的高级用法，供编写可重用类型实用程序/函数/渲染道具/高阶组件​​和 TS+React **库** 的人使用。
 
-- It also has miscellaneous tips and tricks for pro users.
-- Advice for contributing to DefinitelyTyped
-- The goal is to take _full advantage_ of TypeScript.
+- 它还为专业用户提供了各种提示和技巧。
+- 为明确类型提供贡献的建议
+- 目标是充分利用 TypeScript。
 
-**Creating React + TypeScript Libraries**
+**创建 React + TypeScript 库**
 
-The best tool for creating React + TS libraries right now is [`tsdx`](https://github.com/palmerhq/tsdx). Run `npx tsdx create` and select the "react" option. You can view [the React User Guide](https://github.com/palmerhq/tsdx/issues/5) for a few tips on React+TS library best practices and optimizations for production.
+现在创建 React + TS 库的最佳工具是 [`tsdx`](https://github.com/palmerhq/tsdx)。运行 `npx tsdx create` 并选择“react”选项。您可以查看 [React 用户指南](https://github.com/palmerhq/tsdx/issues/5)，了解有关 React+TS 库最佳实践和生产优化的一些提示。
 
-Another option is [Rollpkg](https://github.com/rafgraph/rollpkg), which uses Rollup and the TypeScript compiler (not Babel) to create packages. It includes default configs for TypeScript, Prettier, ESLint, and Jest (setup for use with React), as well as Bundlephobia package stats for each build.
+另一种选择是 [Rollpkg](https://github.com/rafgraph/rollpkg)，它使用 Rollup 和 TypeScript 编译器（不是 Babel）来创建包。它包括 TypeScript、Prettier、ESLint 和 Jest（与 React 一起使用的设置）的默认配置，以及每个构建的 [Bundlephobia](https://bundlephobia.com/) 包统计信息。
 
-- Be sure to also check [`basarat`'s guide](https://basarat.gitbooks.io/typescript/content/docs/quick/library.html) for library tsconfig settings.
-- Alec Larson: [The best Rollup config for TypeScript libraries](https://gist.github.com/aleclarson/9900ed2a9a3119d865286b218e14d226)
-- From the Angular world, check out https://github.com/bitjson/typescript-starter
+- 请务必检查 [`basarat` 的指南](https://basarat.gitbooks.io/typescript/content/docs/quick/library.html) 以了解库 tsconfig 设置。
+- Alec Larson：[TypeScript 库的最佳汇总配置](https://gist.github.com/aleclarson/9900ed2a9a3119d865286b218e14d226)
+- 快速创建和配置一个 Node.js 库：https://github.com/bitjson/typescript-starter
