@@ -2,10 +2,10 @@ name: Generate README
 on:
   workflow_dispatch:
   pull_request:
-    paths: "docs/basic/*"
+    paths: ["docs/basic/*"]
     branches: [main]
   push:
-    paths: "docs/basic/*"
+    paths: ["docs/basic/*"]
     branches: [main]
 jobs:
   build:
